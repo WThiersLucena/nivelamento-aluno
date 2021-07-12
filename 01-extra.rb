@@ -24,7 +24,7 @@ puts ""
 
 puts " [ 2° Quest ] .. > " + ' Quantos minutos há em uma década?'
 puts  minutos * dia * _Ano * decada
-puts""
+puts ""
 
 puts " [ 3° Quest ] ..>  Qual é a sua idade em segundos?"
 puts minutos * hora * dia * _Ano * idade
