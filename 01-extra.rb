@@ -31,7 +31,7 @@ puts minutos * hora * dia * _Ano * idade
 puts''
 
 puts " [ 4° Quest ] ..> Quantos chocolates você pretende comer na vida?"
-puts # rever o conceito desta pergunta que me pegou 
+puts  3*12*40
 puts""
 
 puts " [ 5° Quest ] ..> Se sua idade é de 1232 milhões de segundos, qual é minha idade em anos?"
