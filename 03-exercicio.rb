@@ -33,15 +33,23 @@ def idade_segundos (segundos,minutos,hora,ano,idade)
     return " Idade em segunddos = " + segundos.to_s
 end
 
-puts idade_segundos(60,60,24,365,35)
+puts idade_segundos(60,60,24,365,34)
 
 # 4. retornar a quantidade de anos que tem em uma quantidade de segundos, que será um valor informado para a função
-def anos_segundos (segundos,anos,hora,minutos)
-    anos = segundos/anos/hora/minutos
-    return anos
+def converter_segundos_em_anos (segundos)
+    return segundos/60.0/60.0/24.0/365.0
 end
 
-puts anos_segundos(1103760000,365,24,60)
+
+def adiciona_dez(x)
+    x = x + 10
+    return x
+end
+
+puts numero = 10
+puts numero
+puts adiciona_dez(numero)
+puts numero
 
 
 

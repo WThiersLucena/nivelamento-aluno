@@ -1,6 +1,6 @@
 puts " quantas horas há em um ano?" 
 hora = 24
-ano = 365s
+ano = 365
 puts hora * ano
 
 puts " quantos minutos há em uma década?"
@@ -30,10 +30,4 @@ a = 365
 d = 24
 h = 60
 s = 60
-puts m / a / d / h / s
-
-
-
-
-
-
+puts m.to_f / a / d / h / s
