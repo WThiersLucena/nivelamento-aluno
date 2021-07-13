@@ -30,5 +30,5 @@ puts calcula_comprimento(1)
 def calcula_area (raio)
     return (raio**2)*Math::PI
 end
-puts calcula_area (2)
+puts calcula_area (1)
 
