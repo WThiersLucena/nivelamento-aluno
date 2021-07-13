@@ -16,7 +16,7 @@ def calcula_diamentro (raio)
     return diametro
 end
 
-puts " diametro = a " + calcula_diamentro(3).to_s
+puts " diametro = a " + calcula_diamentro(10).to_s
 
 # 2) O comprimento de um círculo é seu diâmetro vezes o valor da constante matemática PI (3.1415...)
 
@@ -24,11 +24,15 @@ def calcula_comprimento (circulo)
     return calcula_diamentro(circulo)*Math::PI
 end
 
-puts calcula_comprimento(1)
+puts calcula_comprimento(10)
 
 # 3) A área de um círculo é seu raio ao quadrado vezes o valor da constante matemática PI (3.1415...)
 def calcula_area (raio)
     return (raio**2)*Math::PI
 end
-puts calcula_area (1)
+puts calcula_area (10)
+
+puts calcula_diamentro(10)
+puts calcula_comprimento(10)
+puts calcula_area(10)
 
