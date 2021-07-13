@@ -16,7 +16,7 @@ def calcula_diamentro (raio)
     return diametro
 end
 
-puts calcula_diamentro(3)
+puts " diametro = a " + calcula_diamentro(3).to_s
 
 # 2) O comprimento de um círculo é seu diâmetro vezes o valor da constante matemática PI (3.1415...)
 
