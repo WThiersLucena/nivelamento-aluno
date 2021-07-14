@@ -17,7 +17,7 @@ print "Qual a sua idade ? "
 idade = gets.to_i
 
 
-puts nome + " Ate o momento seu coração ja batucou " + calcula_batimento(idade).to_s
+puts " Ate o momento seu coração ja batucou " + calcula_batimento(idade).to_s
 
 
 
