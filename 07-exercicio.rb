@@ -23,13 +23,13 @@ print " chute um numero:  "
 chute = gets.chomp.to_i
 puts
 
-
-if (chute!="0"&& chute.to_i==0)
-    puts" Valor invalido"
-elsif chute.to_i==numero
+if (chute!= "0" && chute.to_i==0)
+    puts" Valor invalido" 
+    elsif chute.to_i==numero&& chute.to_i=0
     puts "acertou"
 else
     puts "voce errou"
+
 end
 
 
