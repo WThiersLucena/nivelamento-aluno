@@ -18,8 +18,8 @@ def calcula_diamentro (raio)
 end
 
 print "1° Favor nos informar o tamanho do raio : "
-raio = gets
-raio = raio.to_f
+raio = gets.to_f
+#raio = raio.to_f
 
 puts " O diamento do seu circulo equivale a :" + calcula_diamentro(raio).to_s
 
@@ -30,7 +30,7 @@ def calcula_comprimento (raio)
 end
 print "2° Favor informar o diametro :"
 diametro = gets
-diametro = diametro.to_f
+# diametro = diametro.to_f
 puts " Resposta = " + calcula_comprimento(raio).to_s
 
 
@@ -41,7 +41,7 @@ puts " Resposta = " + calcula_comprimento(raio).to_s
 end 
 print = "3° Favor nos informar o diamento :"
 diametro = gets
-diametro = diametro.to_f
+# diametro = diametro.to_f
 puts "Resposta = " + calcula_area(raio).to_s
 
 # finalizado

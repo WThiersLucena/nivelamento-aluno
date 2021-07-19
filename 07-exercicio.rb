@@ -23,20 +23,17 @@ print " chute um numero:  "
 chute = gets.chomp.to_i
 puts
 
-if (chute!= "0" && chute.to_i==0)
-    puts" Valor invalido" 
-    elsif chute.to_i==numero&& chute.to_i=0
-    puts "acertou"
+ if (chute!="0" && chute.to_i==0)
+     puts" Valor invalido" 
+     elsif chute.to_i==numero&& chute.to_i=0
+     puts "acertou"
+ else
+     puts "voce errou"
+
+  end
+
+   if numero == chute
+    puts "  Parabens voce acertou "
 else
-    puts "voce errou"
-
-end
-
-
-
-
-# if numero == chute
-   #  puts "  Parabens voce acertou "
-#else
-   #  puts "  Não foi desta vez."
-# end
+    puts "  Não foi desta vez."
+ end
